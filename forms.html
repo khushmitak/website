@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+        <!--creating forms: use form tags-->
+        <!-- we need a few attributes for form: action(send data to the specified location, method: POST(confidential info) or GET)-->
+        <form action="index.php" method="POST">
+            <!--use input type where user can enter some text-->
+            <label for="username">username:</label>
+            <input type="text" id="username" placeholder="spongebob" minlength="6" maxlength="15" required>
+            <br>
+            <label for="password">password:</label>
+            <input type="password" id="password" minlength="6" maxlength="15" required>
+            <br>
+            <label for="email">email:</label>
+            <input type="email" id="email" placeholder="ssquarepants@gmail.com">
+            <br>
+            <label for="phone">phone #:</label>
+            <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            <br>
+            <label for="bday">birthdate:</label>
+            <input type="date" id="bday">
+            <br>
+            <label for="quantity">quantity:</label>
+            <input type="number" id="quantity" min="0" max="99" value="1">
+            <input type="reset">
+            <input type="submit">
+
+        </form>
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
