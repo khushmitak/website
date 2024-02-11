@@ -6,7 +6,7 @@
     <body>
         <!--creating forms: use form tags-->
         <!-- we need a few attributes for form: action(send data to the specified location, method: POST(confidential info) or GET)-->
-        <form action="index.php" method="POST">
+        <form action="index.php" method="POST" enctype="multipart/form-data">
             <!--use input type where user can enter some text-->
             <label for="username">username:</label>
             <input type="text" id="username" placeholder="spongebob" minlength="6" maxlength="15" required>
@@ -25,6 +25,38 @@
             <br>
             <label for="quantity">quantity:</label>
             <input type="number" id="quantity" min="0" max="99" value="1">
+            <br>
+            <!-- radio buttons for mr ms phd-->
+            <label for="title">title:</label>
+
+            <label for="Mr">Mr.</label>
+            <input type="radio" id="Mr" value="Mr." name="title">
+            <label for="Ms">Ms.</label>
+            <input type="radio" id="Ms" value="Ms." name="title">
+            <label for="PhD">PhD.</label>
+            <input type="radio" id="PhD" value="PhD." name="title">
+            <br>
+            <!-- adding dropdowns for payment method-->
+            <label for="payment">payment:</label>
+            <select id="payment">
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="giftcard">giftcard</option>
+            </select>
+            <br>
+            <!-- adding checkboxes-->
+            <label for="subscribe">subscribe:</label>
+            <input type="checkbox" id="subscribe">
+           <br>
+            <!--adding comments-->
+            <label for="comment">comment:</label>
+            <textarea id="comment" rows="3" cols="25"></textarea>
+            <br>
+            <!--adding files-->
+            <label for="file">file:</label>
+            <input type="file" id="file" accept="image/png, image/jpeg">
+            <br>
+
             <input type="reset">
             <input type="submit">
 
@@ -32,15 +64,5 @@
 
 
     </body>
-
-
-
-
-
-
-
-
-
-
 
 </html>
