@@ -1,14 +1,26 @@
 @font-face{
-    src: url(fonts/ProtestRevolution-Regular.ttf);
-    font-family: ProtestRevolution-Regular;
+    src: url(fonts/Roboto-Bold.ttf);
+    font-family: Roboto-Bold;
 }
 
 h1{
-    font-family: ProtestRevolution-Regular, verdana, arial;
+    font-family: "protest revolution", verdana, arial;
+    border-style: solid;
+    border-width: 3px;
+    border-color: mediumorchid;
+    border-radius: 7px;
 }
 pre{
-    font-family: roboto, "lucida console", "courier new";
+    font-family: Roboto-Bold, "lucida console", "courier new";
     font-size: 1em;
     font-weight: bold;
     font-style: italic;
+    border-left: 3px dotted rgb(54, 117, 54);
+    border-right: 3px dotted rgb(54, 117, 54);
+}
+#p3{
+    border-bottom: 3px solid rgb(111, 35, 35)
+}
+#p1{
+    border-top: 3px solid rgb(56, 56, 116);
 }
