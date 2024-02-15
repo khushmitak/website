@@ -1,7 +1,9 @@
 h1{
-    font-family: verdana, arial;
+    font-family: "protest revolution", verdana, arial;
 }
 pre{
-    font-family: "lucida console", "courier new";
-    font-size: 18px;
+    font-family: roboto, "lucida console", "courier new";
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
 }
