@@ -1,5 +1,10 @@
+@font-face{
+    src: url(fonts/ProtestRevolution-Regular.ttf);
+    font-family: ProtestRevolution-Regular;
+}
+
 h1{
-    font-family: "protest revolution", verdana, arial;
+    font-family: ProtestRevolution-Regular, verdana, arial;
 }
 pre{
     font-family: roboto, "lucida console", "courier new";
