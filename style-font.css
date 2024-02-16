@@ -2,6 +2,9 @@
     src: url(fonts/Roboto-Bold.ttf);
     font-family: Roboto-Bold;
 }
+body{
+    margin: 0px;
+}
 
 h1{
     font-family: "protest revolution", verdana, arial;
@@ -26,6 +29,23 @@ pre{
 #p3{
     border-bottom: 3px solid rgb(111, 35, 35)
 }
+
 #p1{
     border-top: 3px solid rgb(56, 56, 116);
+}
+
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+}
+#box1{
+    background-color: rgb(200, 39, 39);
+    margin: 50px; 
+
+}
+
+#box2{
+    background-color: rgb(38, 38, 182);
 }
