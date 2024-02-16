@@ -23,9 +23,8 @@ pre{
     font-size: 1em;
     font-weight: bold;
     font-style: italic;
-    border-left: 3px dotted rgb(54, 117, 54);
-    border-right: 3px dotted rgb(54, 117, 54);
 }
+
 #p3{
     border-bottom: 3px solid rgb(111, 35, 35)
 }
@@ -43,9 +42,17 @@ pre{
 #box1{
     background-color: rgb(200, 39, 39);
     margin: 50px; 
-
 }
 
 #box2{
     background-color: rgb(38, 38, 182);
+    margin: 50px; 
+}
+
+#img1{
+    float: left;
+}
+
+#img2{
+    float: right;
 }
