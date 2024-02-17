@@ -1,15 +1,5 @@
-body{
-    background-color: black
-}
-h1{
-    color: white
-}
-#p1{
-    color: tomato
-}
-#p2{
-    color: lightgreen
-}
-#p3{
-    color: #864491;
+div{
+    border: 2px solid;
+    height: 75px;
+    overflow: auto;
 }
