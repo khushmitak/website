@@ -1,5 +1,17 @@
-div{
+#div1{
     border: 2px solid;
     height: 75px;
     overflow: auto;
+}
+
+#div2{
+    background-color: rgb(230, 174, 174);
+    width: 100px;
+    height: 20px;
+    display: block;
+}
+
+span{
+    background-color: rgb(174, 174, 226);
+    display: inline;
 }
