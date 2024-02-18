@@ -5,3 +5,23 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+a:link{
+    color: black;
+}
+
+a:hover{
+    color: rgb(38, 4, 38);
+    font-size: 1.1em;
+}
+
+a:active{
+    color: red;
+    font-size: 1.1em;
+}
+
+li:hover{
+    background-color: rgb(246, 246, 101);
+}
+li:not(:hover){
+    background-color:rgb(211, 211, 201);
+}
