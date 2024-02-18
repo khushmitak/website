@@ -22,6 +22,32 @@ a:active{
 li:hover{
     background-color: rgb(246, 246, 101);
 }
+
 li:not(:hover){
     background-color:rgb(211, 211, 201);
+}
+
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line{
+    background-color: yellow;
+}
+
+#fruit li::marker{
+    content:"✅"
+}
+#apple::after{
+    content:"🍎"
+}
+#mango::after{
+    content:"🥭"
+}
+#banana::after{
+    content:"🍌"
+}
+#orange::after{
+    content:"🍊";
 }
