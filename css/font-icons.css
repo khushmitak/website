@@ -15,3 +15,36 @@
 .fa-brands.fa-youtube.fa-5x{
     color:rgb(193, 34, 34);
 }
+
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box1{
+    background-color: rgb(235, 71, 71);
+}
+
+#box2{
+    background-color: rgb(238, 238, 59);
+}
+
+#box3{
+    background-color: rgb(15, 201, 15);
+}
+
+#box4{
+    background-color: rgb(60, 60, 243);
+}
