@@ -73,3 +73,24 @@ p::first-line{
     background-color: rgb(170, 168, 168);
     border-radius: 5px;
 }
+
+h1{
+    text-align: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(58, 57, 57);
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar li{
+    float:left;
+}
