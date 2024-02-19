@@ -35,6 +35,7 @@
 
 #box1{
     background-color: rgb(235, 71, 71);
+    transform: rotateZ(45deg);
 }
 
 #box2{
